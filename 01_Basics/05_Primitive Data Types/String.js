@@ -27,16 +27,18 @@ String Methods:
 
 {
     There are four methods that extract the characters in the String
-
 2)  String charAt()
 3)  String charCodeAt()
 4)  String at()
 5)  String [ ]
 }
 
+{
+    There are three methods that extract a part of string.
 6)  String slice()
 7)  String substring()
 8)  String substr()
+}
 9)  String toUpperCase()
 10) String toLowerCase()
 11) String concat()
@@ -113,3 +115,32 @@ String Methods:
     console.log(text[3]) //output is N
 }
 
+/*
+6)  String slice()
+    It estracts a part of string and return a extracted part in a new string.
+    this methods take a two parameters: first start position and second is end position.
+*/
+{
+    let text = "apple banaba orange"
+    console.log(text.slice(6 , 12))
+}
+
+/*
+7)  String substring()
+    it is similar to slice().
+    the difference is that start and end vlaues less than 0 are treated as 0 in substring().
+*/
+{
+    let text = "apple banaba orange"
+    console.log(text.substring(0 , 12))
+}
+
+/*
+8)  String substr()
+    it is similar to slice().
+    the difference is that the second parameter specifies the lenght of the extracted parts.
+*/
+{
+    let text = "apple banaba orange"
+    console.log(text.substr(6 , 12))
+}
