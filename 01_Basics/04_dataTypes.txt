@@ -1,0 +1,23 @@
+Data Type:-
+    1)  Primitive Data Type.
+    2)  non-primitive Data Type
+
+
+1) Primitive Data Type:-
+    Primitive Data Type are as follows:
+        1)  String
+        2)  Number
+        3)  Boolean
+        4)  Undefined
+        5)  Null
+        6)  Symbol
+        7)  BigInt
+
+
+
+2) non-primitive Data Type:-
+    non-Primitive Data Type are as follows:
+        1)  Objects
+        2)  Funcation
+        3)  Date
+        4)  Array
