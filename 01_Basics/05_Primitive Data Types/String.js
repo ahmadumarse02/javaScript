@@ -155,10 +155,47 @@ String Methods:
 }
 
 /*
-9)  String toLowerCase()
+10)  String toLowerCase()
     A string is converted to Lower case with toLowerCase().
 */
 {
     let text = "apple banaba orange"
     console.log(text.toLowerCase()) 
+}
+
+/*
+11) String concat()
+    concat() joins two or more strings.
+*/
+{
+    let text1 = "Ahmad"
+    let text2 = "Umar"
+    console.log(text1.concat(" " , text2))
+}
+
+/* 
+12) String trim()
+    The trim() method removes whitespace from both sides of a string.
+*/
+{
+    let text1 = "      Hello World!      ";
+    console.log(text1.trim())
+}
+
+/*
+13) String trimStart()
+    The trimStart() method works like trim(), but removes whitespace only from the start of a string.
+*/
+{
+    let text1 = "     Hello World!     .";
+    console.log(text1.trimStart());
+}
+
+/*
+14) String trimEnd()
+    The trimEnd() method works like trim(), but removes whitespace only from the End of a string.
+*/
+{
+    let text1 = "     Hello World!     ";
+    console.log(text1.trimEnd());
 }
