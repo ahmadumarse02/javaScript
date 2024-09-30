@@ -8,10 +8,15 @@ Array:
 */
 
 {
-//  Creating an Array
+  //  Creating an Array
 
-let fruits1 = ['Apple' , 'Banana' , 'Mango' , 'Grappes']
+  let fruits1 = ["Apple", "Banana", "Mango", "Grappes"];
 
-let fruits2 = new Array('Apple' , 'Banana' , 'Mango' , 'Grappes')
+  let fruits2 = new Array("Apple", "Banana", "Mango", "Grappes");
+}
 
+{
+  // Accessing Array Elements
+  let fruits1 = ["Apple", "Banana", "Mango", "Grappes"];
+  console.log(fruits1[1]);
 }
