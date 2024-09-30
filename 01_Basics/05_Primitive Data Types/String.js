@@ -221,3 +221,43 @@ String Methods:
     console.log(text.padEnd(10))
     console.log(text.padEnd(10 , "def"))
 }
+
+/*
+17) String repeat()
+    The repeat() method returns a string with a number of copies of a string.
+*/
+{
+    let text = "Hello world!";
+    console.log(text.repeat(4))
+}
+
+/*
+18) String replace()
+    The replace() method replaces a specified value with another value in a string.
+*/
+
+{
+    let text = "Please visit Microsoft and Microsoft!";
+    console.log(text.replace("Microsoft" , "Linux"))
+    console.log(text.replace(/Microsoft/g , "Linux"))
+}
+
+/* 
+19) String replaceAll()
+
+*/
+
+{
+    let text = "I love cats. Cats are very easy to love. Cats are very popular."
+    console.log(text.replaceAll("cats" , "dogs"))
+    console.log(text.replaceAll(/cats/g , "dogs"))
+}
+
+/*
+20) String split()
+    A string can be converted to an array with the split() method
+*/
+{
+    let text = "a,b,c,d,e,f";
+    console.log(text.split("," , [2]))
+}
