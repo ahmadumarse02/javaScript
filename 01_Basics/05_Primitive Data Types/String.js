@@ -1,4 +1,5 @@
-/* String:-
+/*
+String:-
     String are store the some text and written in the quotes and backticks.
 */
 
