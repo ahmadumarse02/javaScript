@@ -144,3 +144,21 @@ String Methods:
     let text = "apple banaba orange"
     console.log(text.substr(6 , 12))
 }
+
+/*
+9)  String toUpperCase()
+    A string is converted to upper case with toUpperCase().
+*/
+{
+    let text = "apple banaba orange"
+    console.log(text.toUpperCase()) 
+}
+
+/*
+9)  String toLowerCase()
+    A string is converted to Lower case with toLowerCase().
+*/
+{
+    let text = "apple banaba orange"
+    console.log(text.toLowerCase()) 
+}
