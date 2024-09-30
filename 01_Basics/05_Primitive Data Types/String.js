@@ -199,3 +199,25 @@ String Methods:
     let text1 = "     Hello World!     ";
     console.log(text1.trimEnd());
 }
+
+/* 
+15) String padStart()
+    The padStart() method pads a string from the start.
+    It pads a string with another string (multiple times) until it reaches a given length.
+*/
+{
+    let text = "abc"
+    console.log(text.padStart(10))
+    console.log(text.padStart(10 , "def"))
+}
+
+/* 
+15) String padEnd()
+    The padEnd() method pads a string from the End.
+    It pads a string with another string (multiple times) until it reaches a given length.
+*/
+{
+    let text = "abc"
+    console.log(text.padEnd(10))
+    console.log(text.padEnd(10 , "def"))
+}
