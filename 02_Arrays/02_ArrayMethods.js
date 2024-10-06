@@ -17,3 +17,12 @@
   console.log(fruits1.toString())
 
 }
+
+{
+  // 3) at(): this method is used to access the an elements at a specified index.
+
+  let fruits1 = ["Apple", "Banana", "Mango", "Grappes"];
+
+  console.log(fruits1.at(2))
+}
+
