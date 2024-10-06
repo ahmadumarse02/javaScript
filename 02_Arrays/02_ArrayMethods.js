@@ -8,14 +8,12 @@
   console.log(fruits.length);
 }
 
-
 {
   // 2) toString(): this method is used to convert array into the string seprated by comma.
 
   let fruits1 = ["Apple", "Banana", "Mango", "Grappes"];
 
-  console.log(fruits1.toString())
-
+  console.log(fruits1.toString());
 }
 
 {
@@ -23,7 +21,7 @@
 
   let fruits1 = ["Apple", "Banana", "Mango", "Grappes"];
 
-  console.log(fruits1.at(2))
+  console.log(fruits1.at(2));
 }
 
 {
@@ -31,8 +29,8 @@
 
   let fruits1 = ["Apple", "Banana", "Mango", "Grappes"];
 
-  console.log(fruits1.join())
-  console.log(fruits1.join('-'))
+  console.log(fruits1.join());
+  console.log(fruits1.join("-"));
 }
 
 {
@@ -44,15 +42,21 @@
   console.log(fruits1);
 }
 
-
-
-
 {
-  //  1) push() :  this method is used to add elements of the array.It change the original array by add the last element and returns that element. 
+  //  1) push() :  this method is used to add elements of the array.It change the original array by add the last element and returns that element.
 
   let fruits1 = ["Apple", "Banana", "Mango", "Grappes"];
   console.log(fruits1.push("Orange"));
   console.log(fruits1);
   fruits1.push("Pineapple", "Strawberry");
+  console.log(fruits1);
+}
+
+{
+  //  2) unshift(): This method add one or more elements begining of an array and return the new lenght of array.
+
+  let fruits1 = ["Apple", "Banana", "Grappes"];
+  console.log(fruits1);
+  fruits1.unshift("Pineapple", "Strawberry");
   console.log(fruits1);
 }
