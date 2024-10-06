@@ -79,3 +79,11 @@
   console.log(fruits1);
 }
 
+
+{
+  // 10) concat(): this method add the arrays and change the original array.
+
+  const myGirls = ["Cecilie", "Lone"];
+  const myBoys = ["Emil", "Tobias", "Linus"];
+  console.log(myGirls.concat(myBoys))
+}
