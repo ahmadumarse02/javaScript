@@ -88,7 +88,8 @@
 }
 
 {
-/*
+/* 11) copyWithin():
+
   The copyWithin() method overwrites the existing values.
 
   The copyWithin() method does not add items to the array.      
@@ -103,7 +104,7 @@
 
   let fruits1 = ["Apple", "Banana", "Grappes" , "orange"];
 
-  console.log(fruits1.copyWithin(2 , 0))
+  console.log(fruits1.copyWithin(1 , 0))
 
   console.log(fruits1.copyWithin(2 , 0 , 3))
 }
