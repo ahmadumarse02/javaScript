@@ -22,7 +22,13 @@
         name: "AHmad Umar",
         class: "Bs(SE)",
         [age]: '25'
+    };
+
+    for(let key in user){
+        console.log(key)
     }
+
     console.log(user)
     console.log(user[age])
+    console.log(JSON.stringify(user)); // When we convert into JSON then symbol was not showed.
 }
