@@ -88,7 +88,7 @@
 }
 
 {
-/* 11) copyWithin():
+  /* 11) copyWithin():
 
   The copyWithin() method overwrites the existing values.
 
@@ -102,19 +102,33 @@
 
   */
 
-  let fruits1 = ["Apple", "Banana", "Grappes" , "orange"];
+  let fruits1 = ["Apple", "Banana", "Grappes", "orange"];
 
-  console.log(fruits1.copyWithin(1 , 0))
+  console.log(fruits1.copyWithin(1, 0));
 
-  console.log(fruits1.copyWithin(2 , 0 , 3))
+  console.log(fruits1.copyWithin(2, 0, 3));
 }
 
 {
-  // 12) flat(): The flat() method in JavaScript is used to flatten nested arrays. 
+  // 12) flat(): The flat() method in JavaScript is used to flatten nested arrays.
   //     It creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
-  
-  const myArr = [[1,2],[3,4],[5,6]];
+
+  const myArr = [
+    [1, 2],
+    [3, 4],
+    [5, 6],
+  ];
   const newArr = myArr.flat();
   console.log(newArr);
   console.log(myArr); // it does not change the original array.
-  }
+}
+
+{
+  // 13) slice(): this method is used to slices out a piece of an array into a new array and it does not change the original array.
+  
+  let fruits1 = ["Apple", "Banana", "Grappes", "orange"];
+  let slicefruits = fruits1.slice(1);
+  console.log(slicefruits)
+  console.log(fruits1)
+}
+
