@@ -36,7 +36,7 @@
 }
 
 {
-  // 5) pop(): this method is used to remove the last elements of the array.
+  // 5) pop(): this method is used to remove the last elements of the array.It change the original array by removing the last element and returns that element. If the array is empty, it returns undefined.
 
   let fruits1 = ["Apple", "Banana", "Mango", "Grappes"];
   let removeElement = fruits1.pop();
@@ -45,3 +45,14 @@
 }
 
 
+
+
+{
+  //  1) push() :  this method is used to add elements of the array.It change the original array by add the last element and returns that element. 
+
+  let fruits1 = ["Apple", "Banana", "Mango", "Grappes"];
+  console.log(fruits1.push("Orange"));
+  console.log(fruits1);
+  fruits1.push("Pineapple", "Strawberry");
+  console.log(fruits1);
+}
