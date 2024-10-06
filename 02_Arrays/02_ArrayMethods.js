@@ -26,3 +26,11 @@
   console.log(fruits1.at(2))
 }
 
+{
+  // 4) join(): this method is used to join the array elements into a single string with a specified separator between each elements.
+
+  let fruits1 = ["Apple", "Banana", "Mango", "Grappes"];
+
+  console.log(fruits1.join())
+  console.log(fruits1.join('-'))
+}
