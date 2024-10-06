@@ -34,3 +34,14 @@
   console.log(fruits1.join())
   console.log(fruits1.join('-'))
 }
+
+{
+  // 5) pop(): this method is used to remove the last elements of the array.
+
+  let fruits1 = ["Apple", "Banana", "Mango", "Grappes"];
+  let removeElement = fruits1.pop();
+  console.log(removeElement);
+  console.log(fruits1);
+}
+
+
