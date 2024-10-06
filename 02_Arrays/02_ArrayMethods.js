@@ -125,10 +125,25 @@
 
 {
   // 13) slice(): this method is used to slices out a piece of an array into a new array and it does not change the original array.
-  
+
   let fruits1 = ["Apple", "Banana", "Grappes", "orange"];
-  let slicefruits = fruits1.slice(1);
-  console.log(slicefruits)
-  console.log(fruits1)
+  let slicefruits = fruits1.slice(2);
+  console.log(slicefruits);
+  console.log(fruits1);
 }
 
+{
+  // 14) splice(): this method is used to add and remove and change the original array.
+  {
+    let fruits1 = ["Apple", "Banana", "Grappes", "orange", "mango"];
+    let splicefruits = fruits1.splice(2, 2);
+    console.log(splicefruits);
+    console.log(fruits1);
+  }
+  {
+    let fruits1 = ["Apple", "Banana", "Grappes"];
+    let splicefruits = fruits1.splice(2, 2  , "mango" , "orange");
+    console.log(splicefruits);
+    console.log(fruits1);
+  }
+}
