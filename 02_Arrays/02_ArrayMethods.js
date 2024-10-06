@@ -79,11 +79,31 @@
   console.log(fruits1);
 }
 
-
 {
   // 10) concat(): this method add the arrays and change the original array.
 
   const myGirls = ["Cecilie", "Lone"];
   const myBoys = ["Emil", "Tobias", "Linus"];
-  console.log(myGirls.concat(myBoys))
+  console.log(myGirls.concat(myBoys));
+}
+
+{
+/*
+  The copyWithin() method overwrites the existing values.
+
+  The copyWithin() method does not add items to the array.      
+
+  The copyWithin() method does not change the length of the array.  
+
+  copyWithin(target, start)
+
+  copyWithin(target, start, end)
+
+  */
+
+  let fruits1 = ["Apple", "Banana", "Grappes" , "orange"];
+
+  console.log(fruits1.copyWithin(2 , 0))
+
+  console.log(fruits1.copyWithin(2 , 0 , 3))
 }
