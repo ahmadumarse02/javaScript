@@ -70,3 +70,12 @@
 
   console.log(fruits1);
 }
+
+{
+  // 9) delete(): this method is used to remove the element of the array and it does not change the orignal array delete value is undefined.
+
+  let fruits1 = ["Apple", "Banana", "Grappes"];
+  delete fruits1[1];
+  console.log(fruits1);
+}
+
