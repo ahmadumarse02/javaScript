@@ -15,14 +15,29 @@ JavaScript objects:-
     age: 30,
     isStudent: false,
   };
-  console.log(person)
+  console.log(person);
 }
 
 {
-    const person = new Object();
-    person.firstName= "John",
-    person.lastName= "Doe",
-    person.age= 30,
-    person.isStudent= false,
-    console.log(person)
+  const person = new Object();
+  (person.firstName = "John"),
+    (person.lastName = "Doe"),
+    (person.age = 30),
+    (person.isStudent = false),
+    console.log(person);
+}
+
+// Accessing Object Properties
+
+{
+  {
+    const person = {
+      firstName: "John",
+      lastName: "Doe",
+      age: 30,
+      isStudent: false,
+    };
+    console.log(person.firstName); // John
+    console.log(person["age"]); // 30
+  }
 }
