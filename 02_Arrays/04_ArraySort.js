@@ -27,7 +27,7 @@ Array Search Methods:-
 }
 
 // 1) Array reverse();-
-// The reverse() method sorts an array alphabetically.
+// The reverse() method sorts an array alphabetically and it change the original array.
 
 {
   const fruits = ["Banana", "Orange", "Apple", "Mango"];
@@ -35,6 +35,9 @@ Array Search Methods:-
   console.log(fruits.sort());
 
   console.log(fruits.reverse());
+
+  console.log(fruits);
+
 }
 
 // 3) Array toSorted():-
@@ -47,3 +50,15 @@ Array Search Methods:-
 
   console.log(fruits);
 }
+
+
+// 4) Array toReversed():-
+// it is similiarly to reverse() method but difference is that it does not change the original array.
+
+{
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+  
+    console.log(fruits.toReversed());
+  
+    console.log(fruits);
+  }
