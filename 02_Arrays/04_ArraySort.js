@@ -37,7 +37,6 @@ Array Search Methods:-
   console.log(fruits.reverse());
 
   console.log(fruits);
-
 }
 
 // 3) Array toSorted():-
@@ -51,14 +50,30 @@ Array Search Methods:-
   console.log(fruits);
 }
 
-
 // 4) Array toReversed():-
 // it is similiarly to reverse() method but difference is that it does not change the original array.
 
 {
-    const fruits = ["Banana", "Orange", "Apple", "Mango"];
-  
-    console.log(fruits.toReversed());
-  
-    console.log(fruits);
+  const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+  console.log(fruits.toReversed());
+
+  console.log(fruits);
+}
+
+// 5) Sorting Objects:-
+{
+  const cars = [
+    { type: "Volvo", year: 2016 },
+    { type: "Saab", year: 2001 },
+    { type: "BMW", year: 2010 },
+  ];
+
+  cars.sort(function (a, b) {
+    return a.year - b.year;
+  });
+
+  for (let a = 0; a < cars.length; a++) {
+    console.log(cars[a].type + " " + cars[a].year);
   }
+}
