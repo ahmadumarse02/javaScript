@@ -8,6 +8,7 @@ JavaScript objects:-
 */
 
 // Create an Object: two methods of creating the objects.
+
 {
   const person = {
     firstName: "John",
@@ -37,7 +38,7 @@ JavaScript objects:-
       age: 30,
       isStudent: false,
     };
-    console.log(person.firstName); // John
-    console.log(person["age"]); // 30
+    console.log(person.firstName);
+    console.log(person["age"]); 
   }
 }
