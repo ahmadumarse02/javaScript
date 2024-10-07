@@ -48,3 +48,18 @@ Array Search Methods:-
 
   console.log(fruits.includes("Grapes")); // false
 }
+
+// 4) Array find():-
+    // The find() method return the value of the first array elements that passes a test funcation.
+
+{
+    const number= [1 , 2, 3 , 28 , 34 , 43]
+
+    let find = number.find(myFuncation)
+
+    function myFuncation(value) {
+        return value > 18
+    }
+
+    console.log(find)
+}
