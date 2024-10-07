@@ -37,3 +37,14 @@ Array Search Methods:-
 
   console.log(fruits.lastIndexOf("apple", 1)); // it return the 0index.
 }
+
+// 3) Array includes():-
+// This method is allow you to check the elements is present in an array.
+
+{
+  const fruits = ["apple", "banana", "orange", "apple"];
+
+  console.log(fruits.includes("apple")); //true
+
+  console.log(fruits.includes("Grapes")); // false
+}
