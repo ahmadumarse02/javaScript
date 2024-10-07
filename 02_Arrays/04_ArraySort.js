@@ -8,10 +8,6 @@ Array Search Methods:-
     5) Sorting Objects
     6) Numeric Sort
     7) Random Sort
-    8) Math.min()
-    9) Math.max()
-    10) Home made Min()
-    11) Home made Max()
 
 */
 
