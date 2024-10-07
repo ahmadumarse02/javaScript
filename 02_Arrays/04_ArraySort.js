@@ -77,3 +77,15 @@ Array Search Methods:-
     console.log(cars[a].type + " " + cars[a].year);
   }
 }
+
+
+// 6) Numeric Sort:-
+    // The sort() method sorts an array numeric.
+
+{
+    const points = [40, 100, 1, 5, 25, 10];
+
+    points.sort(function (a ,b) {return a - b})
+
+    console.log(points)
+}
