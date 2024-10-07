@@ -93,3 +93,18 @@ Array Search Methods:-
 
   console.log(find);
 }
+
+// 7) Array findLastIndex():-
+// The findLastIndex() method return the index of the last array elements that passes a test funcation.
+
+{
+    const number = [1, 2, 3, 28, 34, 4];
+  
+    let find = number.findLastIndex(myFuncation);
+  
+    function myFuncation(value) {
+      return value > 18;
+    }
+  
+    console.log(find);
+  }
