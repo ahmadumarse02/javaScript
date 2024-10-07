@@ -50,16 +50,31 @@ Array Search Methods:-
 }
 
 // 4) Array find():-
-    // The find() method return the value of the first array elements that passes a test funcation.
+// The find() method return the value of the first array elements that passes a test funcation.
 
 {
-    const number= [1 , 2, 3 , 28 , 34 , 43]
+  const number = [1, 2, 3, 28, 34, 43];
 
-    let find = number.find(myFuncation)
+  let find = number.find(myFuncation);
 
-    function myFuncation(value) {
-        return value > 18
-    }
+  function myFuncation(value) {
+    return value > 18;
+  }
 
-    console.log(find)
+  console.log(find);
+}
+
+// 4) Array findIndex():-
+// The findIndex() method return the index of the first array elements that passes a test funcation.
+
+{
+  const number = [1, 2, 3, 28, 34, 43];
+
+  let find = number.findIndex(myFuncation);
+
+  function myFuncation(value) {
+    return value > 18;
+  }
+
+  console.log(find);
 }
