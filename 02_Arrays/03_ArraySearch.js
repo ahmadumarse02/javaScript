@@ -64,13 +64,28 @@ Array Search Methods:-
   console.log(find);
 }
 
-// 4) Array findIndex():-
+// 5) Array findIndex():-
 // The findIndex() method return the index of the first array elements that passes a test funcation.
 
 {
   const number = [1, 2, 3, 28, 34, 43];
 
   let find = number.findIndex(myFuncation);
+
+  function myFuncation(value) {
+    return value > 18;
+  }
+
+  console.log(find);
+}
+
+// 6) Array findLast():-
+// The findLast() method return the value of the last array elements that passes a test funcation.
+
+{
+  const number = [1, 2, 3, 28, 34, 4];
+
+  let find = number.findLast(myFuncation);
 
   function myFuncation(value) {
     return value > 18;
