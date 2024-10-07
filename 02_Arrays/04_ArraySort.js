@@ -16,22 +16,34 @@ Array Search Methods:-
 */
 
 // 1) Array sort();-
-// The sort() method sorts an array alphabetically.
+// The sort() method sorts an array alphabetically and it change the original array.
 
 {
-    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+  const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-    console.log(fruits.sort())
+  console.log(fruits.sort());
+
+  console.log(fruits);
 }
 
 // 1) Array reverse();-
 // The reverse() method sorts an array alphabetically.
 
 {
-    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+  const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
-    console.log(fruits.sort())
+  console.log(fruits.sort());
 
-    console.log(fruits.reverse())
+  console.log(fruits.reverse());
 }
 
+// 3) Array toSorted():-
+// it is similiarly to sort() method but difference is that it does not change the original array.
+
+{
+  const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+  console.log(fruits.toSorted());
+
+  console.log(fruits);
+}
