@@ -78,14 +78,27 @@ Array Search Methods:-
   }
 }
 
-
 // 6) Numeric Sort:-
-    // The sort() method sorts an array numeric.
+// The sort() method sorts an array numeric.
 
 {
-    const points = [40, 100, 1, 5, 25, 10];
+  const points = [40, 100, 1, 5, 25, 10];
 
-    points.sort(function (a ,b) {return a - b})
+  points.sort(function (a, b) {
+    return a - b;
+  });
 
-    console.log(points)
+  console.log(points);
+}
+
+// 7) Random Sort:-
+
+{
+  const points = [40, 100, 1, 5, 25, 10];
+
+  points.sort(function (a, b) {
+    return 0.5 - Math.random();
+  });
+
+  console.log(points);
 }
