@@ -23,3 +23,15 @@ Array Search Methods:-
 
     console.log(fruits.sort())
 }
+
+// 1) Array reverse();-
+// The reverse() method sorts an array alphabetically.
+
+{
+    const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+    console.log(fruits.sort())
+
+    console.log(fruits.reverse())
+}
+
