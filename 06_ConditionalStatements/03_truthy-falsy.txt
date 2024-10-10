@@ -1,0 +1,21 @@
+Falsy Values:-
+    1)  null
+    2)  undefined
+    3)  false
+    4)  NaN
+    5)  0
+    6)  -0
+    7)  0n
+    8)  ""
+    9)  document.all
+
+Truthy:-
+    1)  true
+    2)  {}
+    3)  []
+    4)  (2)
+    5)  ("2")
+    6)  (12n)
+    7)  (infinity)
+    8)  ("false")
+    9)  ("0")
